@@ -6,11 +6,11 @@ public abstract class Shape {
     public Shape(){
         this.color="Brown";
         this.filled=false;
-    };
+    }
     public Shape(String color, Boolean filled){
         this.color=color;
         this.filled=filled;
-    };
+    }
     public String getColor(){
         return color;
     }
@@ -29,7 +29,7 @@ public abstract class Shape {
 }
 class  Circle extends  Shape{
     protected double radius;
-    public Circle() {};
+    public Circle() {}
     public Circle(double radius)
     {
         this.radius = radius;
@@ -68,7 +68,7 @@ class Rectangle extends  Shape{
     public Rectangle()
     {
         super("Yellow", false);
-    };
+    }
     public Rectangle(double width, double length)
     {
         this.width = width;
