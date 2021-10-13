@@ -42,7 +42,6 @@ class ImageComponent extends JComponent
     }
     public void paintComponent(Graphics g)
     {
-        if(image == null) return;
         g.drawImage(image, 0, 0, null);
     }
     private Image image;
