@@ -37,7 +37,7 @@ class ImageComponent extends JComponent
         }
         catch(IOException e)
         {
-            System.out.println("Try again!");
+            System.out.println("Please, try again!");
         }
     }
     public void paintComponent(Graphics g)
