@@ -27,6 +27,10 @@ public class Guess extends JFrame {
         button_set.addActionListener(e -> {
             count ++;
             if (count < 4){
+                if(Integer.parseInt(smallField.getText())>20||Integer.parseInt(smallField.getText())<0) {
+                    JOptionPane.showMessageDialog(Guess.this,"Число должно быть от 0 до 20!");
+                    System.exit(0);
+                }
                 if(flag){
                     JOptionPane.showMessageDialog(Guess.this, "Вы уже выиграли!");
                     flag = true;
