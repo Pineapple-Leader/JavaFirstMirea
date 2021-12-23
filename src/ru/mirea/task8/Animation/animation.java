@@ -14,7 +14,7 @@ public class animation extends JFrame{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
-        this.setSize(400, 400);
+        this.setSize(800, 800);
         this.startWindow();
     }
 

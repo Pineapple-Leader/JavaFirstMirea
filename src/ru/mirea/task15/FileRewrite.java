@@ -5,7 +5,7 @@ import java.io.*;
 public class FileRewrite {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        File file = new File("D://test//msg.txt");
+        File file = new File("D://testFile//text.txt");
         String text = scan.nextLine(); // строка для записи
         try(FileOutputStream FOSObj = new FileOutputStream(file, false))    //класс записи в файл, append - способ записи
         {
